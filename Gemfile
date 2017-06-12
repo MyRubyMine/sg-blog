@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.6'
-gem 'sqlite3'
+gem 'pg'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
 #gem 'sass-rails', '~> 5.0'
@@ -24,6 +24,7 @@ group :development, :test do
   gem 'byebug'
   gem "minitest-rails"
   gem 'database_cleaner'
+  gem 'sqlite3'
 end
 
 group :test do
