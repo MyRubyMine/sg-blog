@@ -98,5 +98,5 @@ DatabaseCleaner.clean
                     image: open("app/assets/images/g3352.png"))
   Comment.create(body: sample_comments.sample, post_id: post.id)
 end
-User.create(name:"Example User", email: "user@example.com",
+User.create(name:"Example User", email: "arnold@google.com",
             password:"foobar", password_confirmation: "foobar")
