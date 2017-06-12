@@ -18,12 +18,12 @@ gem 'bcrypt',   '3.1.11'
 gem 'geocoder'
 gem 'gmaps4rails'
 gem 'coffee-rails'
+gem 'database_cleaner'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem "minitest-rails"
-  gem 'database_cleaner'
 end
 
 group :test do
