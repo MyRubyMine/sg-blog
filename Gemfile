@@ -24,7 +24,6 @@ group :development, :test do
   gem 'byebug'
   gem "minitest-rails"
   gem 'database_cleaner'
-  gem 'sqlite3'
 end
 
 group :test do
